@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>LearnEd</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="C:\Users\Ishika\Downloads\WhatsApp Image 2023-11-07 at 00.14.51.jpeg" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="C:\Users\Ishika\Desktop\web\auto.html">Colleges</a></li>
+				<li><a href="C:\Users\Ishika\Desktop\web\community html.html">Community</a></li>
+				<li><a href="C:\Users\Ishika\Desktop\web\podcast_final.html">Podcast</a></li>
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="C:\Users\Ishika\Desktop\web\search.png" alt="search" onclick=slide()></div>
+			<a class="Signup" href="C:\Users\Ishika\Desktop\web\signup.html">Signup</a>
+			<a class="Login" href="C:\Users\Ishika\Desktop\web\login.html">Login </a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>Unlock Your Coding Mastery with DevMentor : Where Expertise Meets Education</p>
+				<h5>Your gateway to coding expertise, offering comprehensive tutorials and resources. Join us and transform your coding skills</h5>
+				<div class="play">
+					<img src="C:\Users\Ishika\Desktop\web\download.jpg" alt="play"><span><a href="https://www.youtube.com/shorts/QdMzVy2GiKc" target="_blank">Watch Now</a></span>
+				</div>
+			</div>
+			<div class="svg-image">
+				<img src="C:\Users\Ishika\Desktop\web\about.jpg" alt="svg">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+			<div class="user">
+				<img src="images/creator/roshan.jpeg" alt="Username">
+				<p>roshank9419</p>
+			</div>
+			<ul>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#Colleges_section">Colleges</a></li>
+	
+				<li><a href="#Community_section">Community</a></li>
+				<li><a href="#Podcast_section">Podcast</a></li>
+			</ul>
+		</div>
+	</header>
+
+
+<!-- Some Popular Subjects -->
+	<div class="title">
+		<span>Popular Subjects on Devmentor</span>
+	</div>
+	<br><br>
+	<div class="course">
+		<center><div class="cbox">
+		<div class="det"><a href="C:\Users\Ishika\Desktop\web\placement.html">Placement Preparation</a></div>
+		<div class="det"><a href="C:\Users\Ishika\Desktop\web\dailycode.html">Daily coding practices</a></div>
+                <div class="det"><a href="C:\Users\Ishika\Desktop\web\dsa.html">Data Structures</a></div>
+		</div></center>
+		<div class="cbox">
+		
+		</div>
+	</div>
+
+	
+<!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">About Us</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage"  >
+				</div>
+				<div class="side-text">
+					<h2>What sets us apart ?</h2>
+					<p>Expert Mentors: DevMentor brings together a diverse team of seasoned professionals and industry experts who are passionate about sharing their knowledge. Our mentors are committed to guiding you through the intricacies of coding, offering real-world insights and practical advice.</p>
+
+<p>Comprehensive Learning Resources: Whether you're a beginner taking your first steps into coding or an experienced developer looking to expand your skill set, DevMentor offers a comprehensive range of learning resources. From interactive coding exercises to in-depth tutorials and project-based learning, we've got you covered.</p>
+
+<p>Community Collaboration: Learning is a social experience, and at DevMentor, we foster a vibrant and supportive community. Connect with fellow learners, share your experiences, and collaborate on projects. The DevMentor community is a space where ideas are exchanged, challenges are overcome, and friendships are forged.</p>
+				</div>
+		</div>
+	</div>
+
+
+<!-- Colleges -->
+	<div class="diffSection" id="Colleges_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px;padding-bottom: 17px;
+}">Our Moto</p></center>
+		<div class="content">
+			<p>
+				“Embark on your coding journey with DevMentor, where expertise meets enthusiasm, and every line of code brings you closer to your goals. Join us in shaping the future of software development—one learning milestone at a time.”
+			</p>
+		</div>
+	</div>
+	<div class="extra">
+		<p>We're increasing this data every year</p>
+		<div class="smbox">
+		<span><center><div class="data">154</div><div class="det">Enrolled Students</div></center></span>
+		<span><center><div class="data">62</div><div class="det">Total Courses</div></center></span>
+		<span><center><div class="data">56</div><div class="det">Placed Students</div></center></span>
+		<span><center><div class="data">27</div><div class="det">Total Projects</div></center></span>
+		</div>
+	</div>
+
+
+<!-- SERVICES -->
+	<div class="service-swipe">
+		<div class="diffSection" id="services_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #149768;">Services</p></center>
+		</div>
+		<a href="subjects/jee.html"><div class="s-card"><p>Building Concepts for Competitive Exams</p></div></a>
+		<a href="subjects/jee.html#sample_papers"><div class="s-card"><p>Sample Papers of Various Competitive Exams</p></div></a>
+		<a href="#Podcast_section"><div class="s-card">24*7 support of Our Tutors & Mentors</p></div></a>
+		<a href="subjects/quiz.html"><div class="s-card"><p>Daily Brain Teasing Questions to Improve IQ</p></div></a>
+	</div>
+
+<!-- Reviews by Students -->
+<div id="makeitfull">
+	<a href="#review_section"></a>
+</div>
+<div class="review">
+	<div class="diffSection" id="review_section">
+		<center><p style="font-size: 40px; padding: 100px; padding-bottom: 40px; color: #149768;">What the Students Say About Us?</p></center>
+	</div>
+	<div class="rev-container">
+		<div class="rev-card">
+			<div class="identity">
+				<img src="C:\Users\Ishika\Desktop\web\testimonial1.webp"><p>Niya Kochhar</p>
+				<h6>Java</h6>
+				<div class="rating"><img src="C:\Users\Ishika\Desktop\web\testimonial1.webp"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					I did Java Fundamenetal course. It was a great experience. The brain teasers and assignments, actually the whole lot of content was really good. Some problems were challenging yet interesting. Was explained very well where ever I stuck...
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="C:\Users\Ishika\Desktop\web\testimonial2.jpg"><p>Aashwin Sharma</p>
+				<h6>C/C++</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+		
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					LearnEd was an amazing experience for me. I belong to electronics department and had a little experience in coding but I think it has helped me think things through in a much more analytical manner. Coding is important no matter which branch you are in. It gives you a better understanding about how to approach a problem...
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="C:\Users\Ishika\Desktop\web\testi3.jpg"><p>Avni </p>
+				<h6>Python</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					This was my first complete course at coding blocks. I attended the Python course in Winter 2023 and loved it which made me join the full course. The mentor have good knowledge about the field and were very helpful in making us understand the concepts. I would certainly recommend this to anyone...
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Sliding Information -->
+	<marquee style="background: linear-gradient(to right, #149768, #149768); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marqu">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The only person who is educated is the one who has learned how to learn …and change.”</div></marquee>
+</body>
+</html>
